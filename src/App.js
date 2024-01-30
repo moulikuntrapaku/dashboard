@@ -2,6 +2,7 @@ import './App.css';
 import OrangeFarm from './OrangeFarm';
 import Revenue from './Revenue';
 import LostDeals from './LostDeals';
+import Goal from './Goal';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <OrangeFarm/>
       <Revenue/>
       <LostDeals/>
+      <Goal/>
     </div>
   );
 }
