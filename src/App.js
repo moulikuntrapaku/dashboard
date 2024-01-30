@@ -7,6 +7,7 @@ import Customers from './Customers';
 import TopMonth from './TopMonth';
 import TopYear from './TopYear';
 import TopBuyer from './TopBuyer';
+import Chats from './Chats';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <TopMonth/>
       <TopYear/>
       <TopBuyer/>
+      <Chats/>
     </div>
   );
 }
