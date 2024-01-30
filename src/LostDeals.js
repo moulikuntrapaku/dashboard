@@ -1,7 +1,7 @@
 import React from 'react'
 import rightArrow from './images/right-arrow.png'
 
-export default function () {
+export default function LostDeals() {
   return (
     <div>
         <section>

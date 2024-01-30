@@ -2,7 +2,7 @@ import React from 'react'
 import upIcon from './images/up-icon.png'
 import rightArrow from './images/right-arrow.png'
 
-export default function () {
+export default function Revenue() {
   return (
     <div>
         <section>
