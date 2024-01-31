@@ -1,0 +1,15 @@
+#chats{
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    padding-left: 15px;
+}
+#chats-top{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#unread{
+    font-size: 14px;
+    font-weight: 400;
+    color: #454545;
+}

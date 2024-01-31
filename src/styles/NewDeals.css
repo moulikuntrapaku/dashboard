@@ -1,0 +1,10 @@
+#new-deals{
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    padding-left: 15px;
+}
+#deals{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}

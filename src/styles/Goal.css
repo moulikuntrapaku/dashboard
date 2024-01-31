@@ -1,0 +1,16 @@
+#goal{
+    height: 100%;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    box-sizing: border-box;
+    padding-left: 24px;
+}
+.image1 {
+    position: absolute;
+    z-index: 2; /* Ensure image1 appears on top */
+}
+
+.image2 {
+    position: absolute;
+    z-index: 1; /* Ensure image2 appears below image1 */
+}

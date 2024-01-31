@@ -1,0 +1,14 @@
+#footer{
+    display: flex;
+    gap: 10px;
+    box-sizing: border-box;
+}
+#chats{
+    flex: 3.2;
+}
+#top-states{
+    flex: 3.2;
+}
+#new-deals{
+    flex: 4.4;
+}

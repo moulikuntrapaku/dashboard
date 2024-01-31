@@ -1,0 +1,21 @@
+#main{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-sizing: border-box;
+}
+#reports{
+    flex: 2.6;
+    width: 100%;
+    box-sizing: border-box;
+}
+#results{
+    flex: 4;
+    width: 100%;
+    box-sizing: border-box;
+}
+#footer{
+    flex: 2.5;
+    width: 100%;
+    box-sizing: border-box;
+}

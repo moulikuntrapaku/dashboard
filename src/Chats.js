@@ -3,13 +3,14 @@ import profile1 from './images/chats-1.png'
 import profile2 from './images/chats-2.png'
 import profile3 from './images/chats-3.png'
 import profile4 from './images/chats-4.png'
+import './styles/Chats.css'
 
 export default function Chats() {
   return (
-    <div>
-        <section>
+    <div id='chats'>
+        <section id='chats-top'>
             <header>Chats</header>
-            <span>2 unread messages</span>
+            <span id='unread'>2 unread messages</span>
         </section>
         <section>
             <img src={profile1} alt='profile-1'/>

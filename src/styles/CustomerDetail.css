@@ -1,0 +1,19 @@
+#customer-detail{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+#detail{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.name-customer{
+    font-size: 14px;
+    font-weight: 500;
+}
+.company-customer{
+    font-size: 12px;
+    font-weight: 400;
+    color: #454545;
+}

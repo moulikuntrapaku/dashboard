@@ -1,0 +1,30 @@
+#customers{
+    background: #FFFFFF;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+#label{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#label-right{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: #454545;
+}
+#customers-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}

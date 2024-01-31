@@ -1,26 +1,13 @@
-import './App.css';
+import './styles/App.css';
 import OrangeFarm from './OrangeFarm';
-import Revenue from './Revenue';
-import LostDeals from './LostDeals';
-import Goal from './Goal';
-import Customers from './Customers';
-import TopMonth from './TopMonth';
-import TopYear from './TopYear';
-import TopBuyer from './TopBuyer';
-import Chats from './Chats';
+import Main from './Main';
+
 
 function App() {
   return (
     <div className="App">
-      <OrangeFarm/>
-      <Revenue/>
-      <LostDeals/>
-      <Goal/>
-      <Customers/>
-      <TopMonth/>
-      <TopYear/>
-      <TopBuyer/>
-      <Chats/>
+      <OrangeFarm id="navbar"/>
+      <Main id="main"/>
     </div>
   );
 }

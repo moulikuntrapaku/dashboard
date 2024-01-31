@@ -1,0 +1,15 @@
+#bar{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(90deg, #FFCD71 -2.57%, rgba(255, 205, 113, 0) 112.5%);
+    height: 29px;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+#bars-holder{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

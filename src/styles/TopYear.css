@@ -1,0 +1,14 @@
+#top-year{
+    flex: 1;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+#message-in-year{
+    font-size: 14px;
+    font-weight: 400;
+    color: #454545;
+}

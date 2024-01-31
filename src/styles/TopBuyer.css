@@ -1,0 +1,17 @@
+#top-buyer{
+    flex: 1;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+#top-buyer section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#name-buyer, #com-buyer{
+    font-size: 12px;
+}

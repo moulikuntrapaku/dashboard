@@ -12,20 +12,21 @@ import settingIcon from './images/settings.png'
 import logoutIcon from './images/logout.png'
 import NavLink from './NavLink'
 import profilePic from './images/profile-pic.png'
+import './styles/OrangeFarm.css'
 
 export default function OrangeFarm() {
   return (
-    <div>
+    <div id='orange-farm'>
         <main>
             <header>
                 <img src={logomark} alt='logomark'/>
                 <span>OrangeFarm</span>
             </header>
-            <section>
+            <section id='search'>
                 <img src={searchIcon} alt='search-ion'/>
                 <input type='text' placeholder='Search'/>
             </section>
-            <section>
+            <section id='navlinks'>
                 <NavLink icon={dashboardIcon} title="Dashboard"/>
                 <NavLink icon={customerIcon} title="Customers"/>
                 <NavLink icon={reportsIcon} title="All reports"/>
@@ -35,12 +36,12 @@ export default function OrangeFarm() {
                 <NavLink icon={exportsIcon} title="Export"/>
             </section>
         </main>
-        <div>
-            <section>
+        <div id='profile-section'>
+            <section id='profile'>
                 <img src={profilePic} alt='profile-pic'/>
-                <section>
+                <section id='profile-name'>
                     <span>Gustavo Xavier</span>
-                    <span>Admin</span>
+                    <span id='admin'>Admin</span>
                 </section>
             </section>
             <NavLink icon={settingIcon} title="Settings"/>

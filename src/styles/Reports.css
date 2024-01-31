@@ -1,0 +1,15 @@
+#reports{
+    display: flex;
+    gap: 10px;
+    box-sizing: border-box;
+}
+
+#revenue{
+    flex: 4.1;
+}
+#lost-deals{
+    flex: 4.1;
+}
+#goal{
+    flex: 2.6;
+}

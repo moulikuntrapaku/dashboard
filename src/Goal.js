@@ -2,16 +2,17 @@ import React from 'react'
 import ellipse from './images/Ellipse.png'
 import ellipseFill from './images/ellipse-fill.png'
 import rightArrow from './images/right-arrow.png'
+import './styles/Goal.css'
 
 
 export default function Goal() {
   return (
-    <div>
+    <div id='goal'>
         <section>
             <header>Quarter goal</header>
             <section>
-                <img src={ellipseFill} alt='ellipse-fill'/>
-                <img src={ellipse} alt='ellipse'/>
+                {/*<img className='image1' src={ellipseFill} alt='ellipse-fill'/>
+                <img className='image2' src={ellipse} alt='ellipse'/>*/}
                 <span>84%</span>
             </section>
         </section>
